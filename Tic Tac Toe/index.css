@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #C7CCB9;
+}
+
+.container{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10vmin;
+    
+
+}
+
+.box{
+    background-color: #87A878;
+    height: 18vmin;
+    width: 18vmin;
+    margin: 5px;
+    border-radius: 2vh; 
+    font-size: 7vmin;     
+    color: #C9D7BB; 
+}
+.reset{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+h3{
+    padding-top: 4vh;
+
+}
